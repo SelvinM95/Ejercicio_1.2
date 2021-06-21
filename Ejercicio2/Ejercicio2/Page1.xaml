@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio2.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="Nomb"  Text="{Binding Name}" FontSize="25" Padding="20,1"/>
+            <Label x:Name="Apell" Text="{Binding Apellido}" FontSize="25" Padding="20,1"/>
+            <Label x:Name="Ed"    Text="{Binding Edad}" FontSize="25" Padding="20,1"/>
+            <Label x:Name="Corr"  Text="{Binding correo}" FontSize="25" Padding="20,1"/>
+
+            <Button Clicked="volverPage" Text="Volver"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
